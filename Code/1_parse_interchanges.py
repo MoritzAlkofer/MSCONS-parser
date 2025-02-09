@@ -20,10 +20,10 @@ if __name__ == '__main__':
         # parse interchange
         interchange = load_interchange(file)    
         parsed_interchange = parse_interchange(interchange)
-        with open(f'Data/Parsed_messages/{file}', 'w') as f:
-            json.dump(parsed_interchange, f)
+        with open(f'Data/Parsed_interchanges/{file.strip(".txt")}.json', 'w') as f:
+            json.dump(parsed_interchange, f, indent=4)
 
         # structure interchange
-        structured_message = structure_message(parsed_interchange)
-        with open(f'Data/Structured_messages/{file}', 'w') as f:
-            json.dump(structured_message, f)
+        structured_interchange = structure_message(parsed_interchange)
+        with open(f'Data/Structured_interchanges/{file.strip(".txt")}.json', 'w') as f:
+            json.dump(structured_interchange, f, indent=4)

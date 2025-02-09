@@ -1,1 +1,1 @@
-from structuring import structure_message
+from .structuring import structure_message

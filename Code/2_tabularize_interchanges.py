@@ -77,9 +77,9 @@ def extract_quantity_data(segments):
     return sg10_data
 
 if __name__ == '__main__':
-    for message in os.listdir('Data/Structured_messages'):
+    for message in os.listdir('Data/Structured_interchanges'):
         pass
-        segments = json.load(open(f'Data/Structured_messages/{message}', 'r'))
+        segments = json.load(open(f'Data/Structured_interchanges/{message}', 'r'))
         
         header = segments['header']
         body = segments['body']
@@ -92,5 +92,5 @@ if __name__ == '__main__':
         quantity_data['message_type'] = message_type
         quantity_data['Sender'] = market_roles['MS']
         quantity_data['Receiver'] = market_roles['MR']
-        quantity_data.to_csv(f'Data/Tabularized_messages/{message.strip(".json")}.csv', index=False)
+        quantity_data.to_csv(f'Data/Tabularized_interchanges/{message.strip(".json")}.csv', index=False)
         

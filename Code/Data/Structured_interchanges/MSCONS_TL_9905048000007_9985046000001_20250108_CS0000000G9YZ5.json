@@ -1,1 +1,2034 @@
-{"header": {"UNB.1": {"segment_tag": "UNB", "syntax": {"identifier-0001": "UNOC", "version-0002": "3"}, "sender": {"id-0004": "9905048000007", "qualifier-0007": "500"}, "receiver": {"id-0010": "9985046000001", "qualifier-0007": "500"}, "datetime": {"date-0017": "250108", "time-0019": "1813"}, "reference-0020": "CS0000000G9YZ5", "application_ref-0026": "TL"}, "UNH.0": {"segment_tag": "UNH", "message_reference-0062": "1", "message_type": {"message_type_id-0065": "MSCONS", "message_version-0052": "D", "message_release-0054": "04B", "controlling_agency-0051": "UN", "association_code-0057": "2.4c", "common_access_ref-0068": null}, "transmission": {"sequence_number-0070": null, "sequence_status-0073": null}}, "BGM.1": {"segment_tag": "BGM", "document_code-1001": "Z48", "document_name-1001": "Lastgang Marktlokation, Tranche", "document_number-1004": "CS0000000G9YZ5-1", "message_function_code-1225": "9"}, "DTM.1": {"segment_tag": "DTM", "function_code-2005": "137", "value-2380": "202501081813+00", "format_code-2379": "303"}, "SG1.1": {"segment_tag": "RFF", "qualifier-1153": "Z13", "identifier-1154": "13025"}, "SG2.1": {"segment_tag": "NAD", "party_qualifier-3035": "MS", "party_id-3039": "9905048000007", "code_list-1131": "", "resp_agency-3055": "293"}, "SG2.2": {"segment_tag": "NAD", "party_qualifier-3035": "MR", "party_id-3039": "9985046000001", "code_list-1131": "", "resp_agency-3055": "293"}, "UNS.1": {"segment_tag": "UNS", "section_id-0081": "D"}}, "body": {"SG5.1": {"segment_tag": "NAD", "party_qualifier-3035": "DP", "party_id-3039": null, "code_list-1131": null, "resp_agency-3055": null}, "SG5.1.SG6.1": {"segment_tag": "LOC", "location_qualifier-3227": "172", "location_code-3225": "50120962218", "first_related_code-3223": null}, "SG5.1.SG6.1.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412092300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1": {"segment_tag": "LIN", "line_item_number-1082": "1"}, "SG5.1.SG6.1.SG9.1.PIA.1": {"segment_tag": "PIA", "qualifier-4347": "5", "product_number-7140": "1-1:1.29.0", "product_type-7143": "SRW"}, "SG5.1.SG6.1.SG9.1.SG10.1": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,308", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.1.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412092300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.1.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412092315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.2": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,569", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.2.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412092315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.2.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412092330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.3": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,359", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.3.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412092330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.3.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412092345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.4": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,198", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.4.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412092345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.4.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.5": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,265", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.5.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.5.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.6": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,274", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.6.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.6.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.7": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,168", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.7.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.7.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.8": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,01", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.8.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.8.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.9": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,764", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.9.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.9.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.10": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,723", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.10.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.10.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.11": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,664", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.11.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.11.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.12": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,095", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.12.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.12.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.13": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,184", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.13.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.13.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.14": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,218", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.14.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.14.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.15": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,324", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.15.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.15.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.16": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,29", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.16.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.16.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.17": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,141", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.17.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.17.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.18": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,463", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.18.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.18.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.19": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,555", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.19.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.19.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.20": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,681", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.20.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.20.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100400+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.21": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,699", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.21.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100400+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.21.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100415+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.22": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,467", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.22.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100415+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.22.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100430+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.23": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,327", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.23.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100430+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.23.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100445+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.24": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,232", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.24.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100445+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.24.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100500+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.25": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,881", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.25.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100500+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.25.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100515+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.26": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,817", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.26.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100515+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.26.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100530+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.27": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,154", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.27.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100530+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.27.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100545+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.28": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,733", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.28.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100545+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.28.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100600+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.29": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,701", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.29.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100600+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.29.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100615+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.30": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "3,266", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.30.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100615+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.30.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100630+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.30.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.30.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.30.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.31": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "3,266", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.31.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100630+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.31.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100645+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.31.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.31.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.31.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.32": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "3,266", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.32.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100645+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.32.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100700+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.32.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.32.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.32.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.33": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,8", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.33.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100700+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.33.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100715+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.34": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,996", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.34.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100715+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.34.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100730+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.35": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,949", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.35.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100730+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.35.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100745+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.36": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,792", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.36.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100745+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.36.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100800+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.37": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,094", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.37.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100800+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.37.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100815+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.38": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,643", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.38.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100815+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.38.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100830+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.39": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,105", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.39.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100830+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.39.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100845+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.40": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "2,378", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.40.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100845+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.40.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100900+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.40.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.40.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.40.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.41": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "2,378", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.41.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100900+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.41.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100915+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.41.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.41.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.41.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.42": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "2,378", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.42.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100915+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.42.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100930+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.42.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.42.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.42.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.43": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,082", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.43.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100930+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.43.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412100945+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.44": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,665", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.44.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412100945+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.44.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.45": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,382", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.45.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.45.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.46": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,71", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.46.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.46.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.47": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,603", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.47.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.47.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.48": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,665", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.48.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.48.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.49": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,243", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.49.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.49.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.50": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,755", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.50.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.50.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.51": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,243", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.51.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.51.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.52": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,259", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.52.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.52.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.53": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,272", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.53.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.53.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.54": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,348", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.54.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.54.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.55": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,311", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.55.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.55.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.56": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,45", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.56.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.56.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.57": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,51", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.57.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101300+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.57.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.58": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,834", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.58.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101315+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.58.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.59": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,717", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.59.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101330+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.59.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.60": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,023", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.60.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101345+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.60.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101400+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.61": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,985", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.61.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101400+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.61.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101415+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.62": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,003", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.62.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101415+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.62.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101430+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.63": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,383", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.63.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101430+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.63.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101445+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.64": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,359", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.64.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101445+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.64.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101500+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.65": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "3,718", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.65.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101500+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.65.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101515+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.65.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.65.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.65.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.66": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "3,718", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.66.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101515+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.66.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101530+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.66.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.66.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.66.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.67": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,715", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.67.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101530+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.67.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101545+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.68": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,798", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.68.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101545+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.68.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101600+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.69": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,084", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.69.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101600+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.69.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101615+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.70": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,895", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.70.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101615+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.70.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101630+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.71": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,301", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.71.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101630+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.71.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101645+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.72": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,667", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.72.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101645+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.72.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101700+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.73": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,277", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.73.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101700+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.73.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101715+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.74": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,978", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.74.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101715+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.74.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101730+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.75": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,655", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.75.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101730+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.75.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101745+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.76": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,183", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.76.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101745+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.76.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101800+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.77": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,373", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.77.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101800+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.77.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101815+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.78": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,405", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.78.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101815+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.78.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101830+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.79": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "1,447", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.79.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101830+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.79.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101845+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.79.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.79.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.79.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.80": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "1,447", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.80.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101845+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.80.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101900+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.80.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.80.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.80.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.81": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "2,566", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.81.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101900+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.81.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101915+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.81.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.81.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.81.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.82": {"segment_tag": "QTY", "quantity_qualifier-6063": "67", "quantity_value-6060": "2,566", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.82.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101915+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.82.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101930+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.82.STS.1": {"segment_tag": "STS", "status_category_code-9015": "Z32", "status_reason_code-9013": "ZJ2"}, "SG5.1.SG6.1.SG9.1.SG10.82.STS.2": {"segment_tag": "STS", "status_category_code-9015": "Z34", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.82.STS.3": {"segment_tag": "STS", "status_category_code-9015": "Z40", "status_reason_code-9013": "ZB0"}, "SG5.1.SG6.1.SG9.1.SG10.83": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,919", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.83.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101930+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.83.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412101945+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.84": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,882", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.84.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412101945+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.84.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.85": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "4,331", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.85.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102000+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.85.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.86": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,39", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.86.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102015+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.86.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.87": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,438", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.87.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102030+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.87.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.88": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "3,064", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.88.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102045+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.88.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.89": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "2,264", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.89.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102100+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.89.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.90": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,142", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.90.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102115+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.90.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.91": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,929", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.91.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102130+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.91.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.92": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,868", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.92.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102145+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.92.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.93": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,027", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.93.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102200+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.93.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.94": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,073", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.94.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102215+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.94.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.95": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "0,936", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.95.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102230+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.95.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.96": {"segment_tag": "QTY", "quantity_qualifier-6063": "220", "quantity_value-6060": "1,366", "quantity_unit-6411": null}, "SG5.1.SG6.1.SG9.1.SG10.96.DTM.1": {"segment_tag": "DTM", "function_code-2005": "163", "value-2380": "202412102245+00", "format_code-2379": "303"}, "SG5.1.SG6.1.SG9.1.SG10.96.DTM.2": {"segment_tag": "DTM", "function_code-2005": "164", "value-2380": "202412102300+00", "format_code-2379": "303"}}, "footer": {"UNT.1": {"segment_tag": "UNT", "number_of_segments-0074": "338", "message_reference_number-0062": "1"}, "UNZ.1": {"segment_tag": "UNZ", "interchange_control_count-0036": "1", "interchange_control_reference-0020": "CS0000000G9YZ5"}}}
+{
+    "header": {
+        "UNB.1": {
+            "segment_tag": "UNB",
+            "syntax": {
+                "identifier-0001": "UNOC",
+                "version-0002": "3"
+            },
+            "sender": {
+                "id-0004": "9905048000007",
+                "qualifier-0007": "500"
+            },
+            "receiver": {
+                "id-0010": "9985046000001",
+                "qualifier-0007": "500"
+            },
+            "datetime": {
+                "date-0017": "250108",
+                "time-0019": "1813"
+            },
+            "reference-0020": "CS0000000G9YZ5",
+            "application_ref-0026": "TL"
+        },
+        "UNH.0": {
+            "segment_tag": "UNH",
+            "message_reference-0062": "1",
+            "message_type": {
+                "message_type_id-0065": "MSCONS",
+                "message_version-0052": "D",
+                "message_release-0054": "04B",
+                "controlling_agency-0051": "UN",
+                "association_code-0057": "2.4c",
+                "common_access_ref-0068": null
+            },
+            "transmission": {
+                "sequence_number-0070": null,
+                "sequence_status-0073": null
+            }
+        },
+        "BGM.1": {
+            "segment_tag": "BGM",
+            "document_code-1001": "Z48",
+            "document_name-1001": "Lastgang Marktlokation, Tranche",
+            "document_number-1004": "CS0000000G9YZ5-1",
+            "message_function_code-1225": "9"
+        },
+        "DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "137",
+            "value-2380": "202501081813+00",
+            "format_code-2379": "303"
+        },
+        "SG1.1": {
+            "segment_tag": "RFF",
+            "qualifier-1153": "Z13",
+            "identifier-1154": "13025"
+        },
+        "SG2.1": {
+            "segment_tag": "NAD",
+            "party_qualifier-3035": "MS",
+            "party_id-3039": "9905048000007",
+            "code_list-1131": "",
+            "resp_agency-3055": "293"
+        },
+        "SG2.2": {
+            "segment_tag": "NAD",
+            "party_qualifier-3035": "MR",
+            "party_id-3039": "9985046000001",
+            "code_list-1131": "",
+            "resp_agency-3055": "293"
+        },
+        "UNS.1": {
+            "segment_tag": "UNS",
+            "section_id-0081": "D"
+        }
+    },
+    "body": {
+        "SG5.1": {
+            "segment_tag": "NAD",
+            "party_qualifier-3035": "DP",
+            "party_id-3039": null,
+            "code_list-1131": null,
+            "resp_agency-3055": null
+        },
+        "SG5.1.SG6.1": {
+            "segment_tag": "LOC",
+            "location_qualifier-3227": "172",
+            "location_code-3225": "50120962218",
+            "first_related_code-3223": null
+        },
+        "SG5.1.SG6.1.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412092300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1": {
+            "segment_tag": "LIN",
+            "line_item_number-1082": "1"
+        },
+        "SG5.1.SG6.1.SG9.1.PIA.1": {
+            "segment_tag": "PIA",
+            "qualifier-4347": "5",
+            "product_number-7140": "1-1:1.29.0",
+            "product_type-7143": "SRW"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.1": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,308",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.1.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412092300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.1.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412092315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.2": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,569",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.2.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412092315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.2.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412092330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.3": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,359",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.3.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412092330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.3.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412092345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.4": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,198",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.4.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412092345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.4.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.5": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,265",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.5.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.5.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.6": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,274",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.6.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.6.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.7": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,168",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.7.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.7.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.8": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,01",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.8.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.8.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.9": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,764",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.9.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.9.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.10": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,723",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.10.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.10.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.11": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,664",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.11.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.11.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.12": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,095",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.12.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.12.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.13": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,184",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.13.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.13.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.14": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,218",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.14.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.14.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.15": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,324",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.15.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.15.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.16": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,29",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.16.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.16.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.17": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,141",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.17.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.17.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.18": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,463",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.18.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.18.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.19": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,555",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.19.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.19.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.20": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,681",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.20.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.20.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100400+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.21": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,699",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.21.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100400+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.21.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100415+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.22": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,467",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.22.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100415+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.22.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100430+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.23": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,327",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.23.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100430+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.23.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100445+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.24": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,232",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.24.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100445+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.24.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100500+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.25": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,881",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.25.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100500+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.25.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100515+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.26": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,817",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.26.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100515+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.26.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100530+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.27": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,154",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.27.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100530+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.27.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100545+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.28": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,733",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.28.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100545+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.28.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100600+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.29": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,701",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.29.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100600+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.29.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100615+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "3,266",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100615+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100630+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.30.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "3,266",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100630+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100645+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.31.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "3,266",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100645+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100700+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.32.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.33": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,8",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.33.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100700+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.33.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100715+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.34": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,996",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.34.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100715+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.34.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100730+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.35": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,949",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.35.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100730+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.35.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100745+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.36": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,792",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.36.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100745+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.36.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100800+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.37": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,094",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.37.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100800+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.37.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100815+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.38": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,643",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.38.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100815+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.38.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100830+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.39": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,105",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.39.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100830+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.39.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100845+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "2,378",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100845+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100900+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.40.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "2,378",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100900+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100915+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.41.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "2,378",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100915+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100930+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.42.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.43": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,082",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.43.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100930+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.43.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412100945+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.44": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,665",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.44.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412100945+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.44.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.45": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,382",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.45.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.45.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.46": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,71",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.46.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.46.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.47": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,603",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.47.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.47.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.48": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,665",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.48.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.48.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.49": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,243",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.49.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.49.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.50": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,755",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.50.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.50.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.51": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,243",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.51.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.51.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.52": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,259",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.52.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.52.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.53": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,272",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.53.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.53.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.54": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,348",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.54.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.54.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.55": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,311",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.55.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.55.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.56": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,45",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.56.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.56.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.57": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,51",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.57.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101300+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.57.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.58": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,834",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.58.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101315+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.58.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.59": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,717",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.59.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101330+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.59.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.60": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,023",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.60.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101345+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.60.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101400+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.61": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,985",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.61.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101400+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.61.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101415+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.62": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,003",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.62.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101415+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.62.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101430+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.63": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,383",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.63.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101430+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.63.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101445+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.64": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,359",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.64.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101445+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.64.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101500+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "3,718",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101500+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101515+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.65.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "3,718",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101515+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101530+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.66.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.67": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,715",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.67.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101530+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.67.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101545+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.68": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,798",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.68.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101545+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.68.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101600+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.69": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,084",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.69.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101600+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.69.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101615+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.70": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,895",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.70.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101615+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.70.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101630+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.71": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,301",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.71.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101630+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.71.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101645+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.72": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,667",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.72.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101645+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.72.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101700+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.73": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,277",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.73.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101700+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.73.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101715+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.74": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,978",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.74.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101715+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.74.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101730+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.75": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,655",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.75.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101730+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.75.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101745+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.76": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,183",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.76.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101745+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.76.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101800+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.77": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,373",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.77.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101800+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.77.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101815+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.78": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,405",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.78.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101815+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.78.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101830+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "1,447",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101830+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101845+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.79.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "1,447",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101845+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101900+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.80.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "2,566",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101900+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101915+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.81.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "67",
+            "quantity_value-6060": "2,566",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101915+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101930+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82.STS.1": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z32",
+            "status_reason_code-9013": "ZJ2"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82.STS.2": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z34",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.82.STS.3": {
+            "segment_tag": "STS",
+            "status_category_code-9015": "Z40",
+            "status_reason_code-9013": "ZB0"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.83": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,919",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.83.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101930+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.83.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412101945+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.84": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,882",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.84.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412101945+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.84.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.85": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "4,331",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.85.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102000+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.85.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.86": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,39",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.86.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102015+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.86.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.87": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,438",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.87.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102030+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.87.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.88": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "3,064",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.88.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102045+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.88.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.89": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "2,264",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.89.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102100+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.89.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.90": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,142",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.90.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102115+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.90.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.91": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,929",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.91.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102130+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.91.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.92": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,868",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.92.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102145+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.92.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.93": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,027",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.93.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102200+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.93.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.94": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,073",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.94.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102215+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.94.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.95": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "0,936",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.95.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102230+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.95.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.96": {
+            "segment_tag": "QTY",
+            "quantity_qualifier-6063": "220",
+            "quantity_value-6060": "1,366",
+            "quantity_unit-6411": null
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.96.DTM.1": {
+            "segment_tag": "DTM",
+            "function_code-2005": "163",
+            "value-2380": "202412102245+00",
+            "format_code-2379": "303"
+        },
+        "SG5.1.SG6.1.SG9.1.SG10.96.DTM.2": {
+            "segment_tag": "DTM",
+            "function_code-2005": "164",
+            "value-2380": "202412102300+00",
+            "format_code-2379": "303"
+        }
+    },
+    "footer": {
+        "UNT.1": {
+            "segment_tag": "UNT",
+            "number_of_segments-0074": "338",
+            "message_reference_number-0062": "1"
+        },
+        "UNZ.1": {
+            "segment_tag": "UNZ",
+            "interchange_control_count-0036": "1",
+            "interchange_control_reference-0020": "CS0000000G9YZ5"
+        }
+    }
+}

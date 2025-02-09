@@ -1,4 +1,4 @@
-from utils import split_with_release
+from .utils import split_with_release
 
 class Segment_parser():
     def __init__(self):

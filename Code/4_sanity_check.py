@@ -12,15 +12,15 @@ def load_csv(file_path):
 
 
 def find_em_file():
-    """Find the first EM file in 'Data/Tabularized_messages/'."""
-    em_files = glob.glob('Data/Tabularized_messages/*.csv')
+    """Find the first EM file in 'Data/Tabularized_interchanges/'."""
+    em_files = glob.glob('Data/Tabularized_interchanges/*.csv')
     return next((f for f in em_files if f.split('_')[2] == 'EM'), None)
 
 
 def align_dates(df):
     """Convert start and end columns to datetime and remove timezone information."""
-    df['start'] = pd.to_datetime(df['start'], format='%Y%m%d%H%M%z').dt.tz_localize(None)
-    df['end'] = pd.to_datetime(df['end'], format='%Y%m%d%H%M%z').dt.tz_localize(None)
+    df['start'] = pd.to_datetime(df['start']).dt.tz_localize(None)
+    df['end'] = pd.to_datetime(df['end']).dt.tz_localize(None)
     return df
 
 
@@ -44,7 +44,7 @@ def main():
     # 📌 Find and Load EM Data
     em_file_path = find_em_file()
     if not em_file_path:
-        raise FileNotFoundError("No EM message file found in 'Data/Tabularized_messages/'.")
+        raise FileNotFoundError("No EM message file found in 'Data/Tabularized_interchanges/'.")
 
     df_em = load_csv(em_file_path)
 

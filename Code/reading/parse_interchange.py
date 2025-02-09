@@ -1,4 +1,4 @@
-from segment_parser import Segment_parser
+from .segment_parser import Segment_parser
 
 def parse_interchange(interchange):
     """
