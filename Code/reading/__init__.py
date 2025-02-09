@@ -1,1 +1,2 @@
-from .message_parser import parse_interchange, parse_segment
+from .parse_interchange import parse_interchange
+from .segment_parser import Segment_parser
