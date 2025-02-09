@@ -14,7 +14,9 @@ It consists of two key functionalities:
 ✅ **Structures Data Hierarchically** → Groups elements into SG5-SG10, maintaining logical relationships.  
 ✅ **Supports Time-Series (TL) & Monthly Data (EM)** → Handles detailed load profiles & aggregated values.  
 ✅ **Handles Market Roles** → Identifies sender/receiver for validation.  
+✅ **Visualizes Data** → Visualizes data using matplotlib.  
 
+[Energy consumption visualization](src/Figures/day_2024-12-04.png)
 ## 📌 Additional Features (In Development)
 Beyond its core functionalities, this project is being extended with several non-core features to enhance usability and analysis:
 

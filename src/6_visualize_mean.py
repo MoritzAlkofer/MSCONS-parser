@@ -9,7 +9,7 @@ def calculate_statistics(df):
     
     return mean, std
     
-def create_plot(mean, std):
+def create_plot(mean, std, start, end):
     # Create figure
     fig = plt.figure(figsize=(12, 6))
     
@@ -21,7 +21,7 @@ def create_plot(mean, std):
                     color='b', alpha=0.1, label='±1 Standard Deviation')
 
     # Customize plot
-    plt.title('Mean Daily Energy Usage with ±1 Standard Deviation')
+    plt.title(f'Mean Daily Energy Usage with ±1 Standard Deviation\nfrom {start} to {end}')
     plt.xlabel('Time of Day')
     plt.ylabel('Energy Value')
     plt.grid(True)
@@ -31,25 +31,23 @@ def create_plot(mean, std):
     plt.xticks(rotation=45)
     n = 12  # Show every nth label
     plt.xticks(mean.index[::n])
-
-    # Adjust layout
-    plt.tight_layout()
     
     return fig
 
 if __name__ == "__main__":
     # Load and process data
-    df = pd.read_csv('Data/quantity_data.csv')
+    df = pd.read_csv('Data/Aggregated_data.csv')
 
     # Convert start column to datetime and extract time
     df['start'] = pd.to_datetime(df['start'])
     df['time'] = df['start'].dt.strftime('%H:%M')
-    
+    start, end = df['start'].min().strftime("%Y-%m-%d"), df['start'].max().strftime("%Y-%m-%d")
     # Calculate statistics
     mean, std = calculate_statistics(df)
     
     # Create and save plot
-    fig = create_plot(mean, std)
+    fig = create_plot(mean, std, start, end)
+    fig.tight_layout()
     fig.savefig('Figures/mean_energy_usage.png')
     plt.show()
     plt.close(fig)
