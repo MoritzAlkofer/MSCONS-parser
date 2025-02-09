@@ -1,1 +1,2 @@
-[{"product_id": "1-1:1.8.0", "quantity_value-6060": "92,234", "quantity_qualifier-6063": "220", "start": "202411302300+00", "end": "202411302300+00", "status_category": null, "status_reason": null}]
+meetering_point_id,obis_code,quantity_value-6060,quantity_qualifier-6063,start,end,status_category,status_reason,message_type,Sender,Receiver
+,1-1:1.8.0,"92,234",220,202411302300+00,202411302300+00,,,VL,9905048000007,9985046000001

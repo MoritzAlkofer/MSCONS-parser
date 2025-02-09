@@ -9,11 +9,6 @@ def plot_day(df_day, title):
     
     ax.plot(df_day['start'], df_day['quantity_value-6060'])
 
-    quality_filter = df_day['quantity_qualifier-6063'] == '220+'
-    x = df_day[quality_filter]['start']
-    y= df_day[quality_filter]['quantity_value-6060']
-    ax.scatter(x,y, color='darkblue',label='true value (220+)', zorder=3)
-
     quality_filter = df_day['quantity_qualifier-6063'] == '220'
     x = df_day[quality_filter]['start']
     y= df_day[quality_filter]['quantity_value-6060']
@@ -47,7 +42,7 @@ def plot_day(df_day, title):
     return fig
 
 if __name__ == "__main__":
-    df = pd.read_csv('Data/quantity_data_VL.csv')
+    df = pd.read_csv('Data/quantity_data.csv')
     # Convert start column to datetime
     df['start'] = pd.to_datetime(df['start'])
     df['end'] = pd.to_datetime(df['end'])

@@ -5,19 +5,6 @@ class MSCONSMessageAnalyzer:
     
     def __init__(self):
         pass
-
-    def extract_my_id(self, parsed_segments):
-        """Extracts provider ID from NAD segments in a parsed MSCONS message."""
-        my_id = None  # Default if not found
-
-        for segment in parsed_segments:
-            if segment["segment_tag"] == "NAD" and segment["party_qualifier-3035"] in ["MS", "MR", "DP"]:
-                provider_id = segment.get("party_id-3039")
-                if provider_id:
-                    my_id = provider_id
-                    break  # Stop if found
-
-        return my_id
         
     def extract_my_meters(self, parsed_segments):
         """Extracts metering point IDs from the parsed MSCONS message."""
@@ -29,16 +16,13 @@ class MSCONSMessageAnalyzer:
 
         return metering_points
 
-    def extract_allowed_types(self, parsed_segments):
-        """Extracts the MSCONS message type from UNB or defaults to 'EM'."""
-        return segment.get("message_type", "EM")  # Defaults to EM if missing
-
     def analyze_message(self, parsed_segments):
         """Extracts key information from a parsed MSCONS message to determine provider relevance."""
         return {
             "my_id": self.extract_my_id(parsed_segments),
             "my_meters": self.extract_my_meters(parsed_segments),
             "message_type": self.extract_allowed_types(parsed_segments)
+            "all"
         }
 
 class MSCONSValidator:
@@ -85,31 +69,24 @@ class MSCONSValidator:
                 return True  # QTY+220 found
         return False  # No QTY+220 found
 
-def process_mscons_message(segments, my_id, my_meters, allowed_types):
-    """
-    Processes an MSCONS message and determines if it is relevant to this energy provider.
 
-    Args:
-        segments (dict): Parsed MSCONS segments.
-        my_id (str): The energy provider's ID.
-        my_meters (set): Set of metering points that belong to this provider.
-        allowed_types (set): Set of allowed MSCONS message types (VL, TL, EM).
 
-    Returns:
-        dict: A structured dictionary containing message validation and extracted data.
-    """
-    return {
-        "message_for_me": is_message_for_me(segments, my_id),
-        "market_roles": get_market_roles(segments, my_id),
-        "metering_point_relevant": is_metering_point_relevant(segments, my_meters),
-        "valid_message_type": is_relevant_message_type(segments, allowed_types),
-        "energy_quantity_present": is_energy_quantity_present(segments)
-    }
 
 
 if __name__ == "__main__":
     
-    message = json.load(open("Data/Parsed_messages/MSCONS_EM_9905048000007_9985046000001_20250101_CS0000000G144K.json"))
-    message_analyzer = MSCONSMessageAnalyzer()
-    result = message_analyzer.analyze_message(message)
-    print(message_analyzer.analyze_message())
+    message = json.load(open("Data/Structured_parsed_messages/MSCONS_EM_9905048000007_9985046000001_20250101_CS0000000G144K.json"))
+    
+    header = message['header']
+    body = message['body']
+    footer = message['footer']
+
+    message_type = header['UNB.1']['application_ref-0026']
+    market_roles = get_market_roles(header)
+    
+
+    SG6_elements = [body[key] for key in body.keys() if 'SG6' in key]
+    meters = []
+    for SG6_element in SG6_elements:
+        meters.append(SG6_element['location_code-3225'])
+    
