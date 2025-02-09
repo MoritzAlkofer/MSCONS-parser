@@ -16,7 +16,9 @@ It consists of two key functionalities:
 ✅ **Handles Market Roles** → Identifies sender/receiver for validation.  
 ✅ **Visualizes Data** → Visualizes data using matplotlib.  
 
-[Energy consumption visualization](src/Figures/day_2024-12-04.png)
+<img src="src/Figures/day_2024-12-04.png" alt="Energy Trend" width="600"/>
+
+
 ## 📌 Additional Features (In Development)
 Beyond its core functionalities, this project is being extended with several non-core features to enhance usability and analysis:
 
