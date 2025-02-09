@@ -41,17 +41,22 @@ def plot_day(df_day, title):
 
     return fig
 
+def process_day(df, day, save_path):
+            title = f'day {day}'
+            df_day = df[df['start'].dt.date == day]
+            df_day.sort_values(by='start', inplace=True)
+            fig = plot_day(df_day, title)
+            fig.savefig(f'{save_path}/{title}.png')
+            plt.close(fig)
+
+def process_and_plot_days(df, save_path='Figures'):
+        df['start'] = pd.to_datetime(df['start'])
+        df['end'] = pd.to_datetime(df['end'])
+        # Filter for a single day (using the second day in the dataset)
+        days = df['start'].dt.date.unique()
+        for day in tqdm(days):
+            process_day(df, day, save_path)
+
 if __name__ == "__main__":
-    df = pd.read_csv('Data/quantity_data.csv')
-    # Convert start column to datetime
-    df['start'] = pd.to_datetime(df['start'])
-    df['end'] = pd.to_datetime(df['end'])
-    # Filter for a single day (using the second day in the dataset)
-    days = df['start'].dt.date.unique()
-    for day in tqdm(days):
-        title = f'day {day}'
-        df_day = df[df['start'].dt.date == day]
-        df_day.sort_values(by='start', inplace=True)
-        fig = plot_day(df_day, title)
-        fig.savefig(f'Figures/{title}.png')
-        plt.close(fig)
+    df = pd.read_csv('Data/Aggregated_data.csv')
+    process_and_plot_days(df)

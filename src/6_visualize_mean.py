@@ -1,15 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-
-def load_and_process_data():
-    # Load data
-    df = pd.read_csv('Data/quantity_data.csv')
-    
-    # Convert start column to datetime and extract time
-    df['start'] = pd.to_datetime(df['start'])
-    df['time'] = df['start'].dt.strftime('%H:%M')
-    
-    return df
+import matplotlib.pyplot as plt    
 
 def calculate_statistics(df):
     # Group by time and calculate statistics
@@ -18,7 +8,7 @@ def calculate_statistics(df):
     std = grouped.std()
     
     return mean, std
-
+    
 def create_plot(mean, std):
     # Create figure
     fig = plt.figure(figsize=(12, 6))
@@ -47,9 +37,13 @@ def create_plot(mean, std):
     
     return fig
 
-def main():
+if __name__ == "__main__":
     # Load and process data
-    df = load_and_process_data()
+    df = pd.read_csv('Data/quantity_data.csv')
+
+    # Convert start column to datetime and extract time
+    df['start'] = pd.to_datetime(df['start'])
+    df['time'] = df['start'].dt.strftime('%H:%M')
     
     # Calculate statistics
     mean, std = calculate_statistics(df)
@@ -59,6 +53,3 @@ def main():
     fig.savefig('Figures/mean_energy_usage.png')
     plt.show()
     plt.close(fig)
-
-if __name__ == "__main__":
-    main()

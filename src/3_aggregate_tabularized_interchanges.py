@@ -24,5 +24,5 @@ if __name__ == '__main__':
      df = df[df['message_type'] == 'TL']
      df = drop_duplicates(df)
 
-     df.to_csv('Data/quantity_data.csv', index=False)
+     df.to_csv('Data/Aggregated_data.csv', index=False)
 
