@@ -14,7 +14,16 @@ It consists of two key functionalities:
 ✅ **Structures Data Hierarchically** → Groups elements into SG5-SG10, maintaining logical relationships.  
 ✅ **Supports Time-Series (TL) & Monthly Data (EM)** → Handles detailed load profiles & aggregated values.  
 ✅ **Handles Market Roles** → Identifies sender/receiver for validation.  
-✅ **Timezone-Aware Datetime Parsing** → Correctly processes timestamps from `DTM` segments.  
+
+## 📌 Additional Features (In Development)
+Beyond its core functionalities, this project is being extended with several non-core features to enhance usability and analysis:
+
+✅ Data Visualization → Generate plots and summaries of energy consumption trends.
+✅ Validation & Error Handling → Detect inconsistencies in message formatting and content.
+✅ Aggregation & Filtering → Extract and analyze specific periods, meters, or energy types.
+✅ Export & Reporting → Convert structured data into tabular formats for further processing.
+
+📌 Note: These features are still under development and will be refined over time. 🚀
 
 ---
 
@@ -23,6 +32,14 @@ It consists of two key functionalities:
 The parse interchange function reads raw MSCONS EDIFACT messages and converts them into a structured JSON format.
 
 🔹 Example Usage
+
+📝 Input (Raw MSCONS Segment)
+```plaintext
+UNB+UNOC:3+9905048000007:500+9985046000001:500+250101:1254+CS0000000G144K++EM
+```
+
+🔄 Processing
+The parse_interchange() function reads this raw EDIFACT segment and extracts key elements
 
 ```python
 from reading import parse_interchange
@@ -37,6 +54,31 @@ parsed_message = parse_interchange(raw_message)
 # Save parsed output
 with open("Data/Parsed_Messages/sample_message.json", "w") as f:
     json.dump(parsed_message, f, indent=4)
+```
+
+📤 Output (Parsed JSON Structure)
+```json
+{
+    "segment_tag": "UNB",
+    "syntax": {
+        "identifier-0001": "UNOC",
+        "version-0002": "3"
+    },
+    "sender": {
+        "id-0004": "9905048000007",
+        "qualifier-0007": "500"
+    },
+    "receiver": {
+        "id-0010": "9985046000001",
+        "qualifier-0007": "500"
+    },
+    "datetime": {
+        "date-0017": "250101",
+        "time-0019": "1254"
+    },
+    "reference-0020": "CS0000000G144K",
+    "application_ref-0026": "EM"
+}
 ```
 
 📌 **What It Does** \
@@ -67,10 +109,47 @@ with open("Data/Structured_interchanges/sample_message.json", "w") as f:
     json.dump(structured_message, f, indent=4)
 ```
 
+📌 **Structuring the Parsed Message** \
+Each segment in the parsed MSCONS message is now assigned a unique hierarchical key, reflecting its position within the message structure.
+
+For example, a status segment (STS) within a specific delivery party (SG5), meter (SG6), product/service (SG9), and quantity (SG10) is addressed as:
+
+```plaintext
+"SG5.1.SG6.1.SG9.1.SG10.1.STS.1"
+```
+
+Since this is the first UNB segment in the message, it is assigned the key UNB.1, indicating its position as the initial interchange header.
+
+```json
+"UNB.1": {
+            "segment_tag": "UNB",
+            "syntax": {
+                "identifier-0001": "UNOC",
+                "version-0002": "3"
+            },
+            "sender": {
+                "id-0004": "9905048000007",
+                "qualifier-0007": "500"
+            },
+            "receiver": {
+                "id-0010": "9985046000001",
+                "qualifier-0007": "500"
+            },
+            "datetime": {
+                "date-0017": "250101",
+                "time-0019": "1254"
+            },
+            "reference-0020": "CS0000000G144K",
+            "application_ref-0026": "EM"
+        }
+```
+
+This ensures a logical and easily navigable structure, preserving relationships between different elements of the message. 🚀
+
 📌 **What It Does** \
 ✔ Groups segments logically → SG5 (Delivery), SG6 (Meter), SG9 (Product), SG10 (Quantity). \
 ✔ Attaches time references → Links DTM values to SG10 or SG6 correctly. \
-✔ Supports nested parsing → Ensures hierarchical relationships are preserved. \
+✔ Supports nested parsing → Ensures hierarchical relationships are preserved. 
 
 --- 
 
@@ -78,6 +157,8 @@ with open("Data/Structured_interchanges/sample_message.json", "w") as f:
 
 - Implement advanced validation checks
 - Improve logging & error handling
+- Add Timezone-Aware Datetime Parsing → Correctly processes timestamps from `DTM` segments.  
+- Gain better understanding of STS segments and their usage.
 
 --- 
 
