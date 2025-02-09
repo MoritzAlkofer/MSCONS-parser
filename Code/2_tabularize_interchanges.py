@@ -92,5 +92,5 @@ if __name__ == '__main__':
         quantity_data['message_type'] = message_type
         quantity_data['Sender'] = market_roles['MS']
         quantity_data['Receiver'] = market_roles['MR']
-        quantity_data.to_csv(f'Data/Tabularized_interchanges/{message.strip(".json")}.csv', index=False)
+        quantity_data.to_csv(f'Data/Tabularized_interchanges/{message.strip(".txt")}.csv', index=False)
         

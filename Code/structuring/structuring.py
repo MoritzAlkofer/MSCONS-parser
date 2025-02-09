@@ -283,12 +283,12 @@ def structure_message(segments):
 
 def test(body_segments, structured_body_segments):
     tags = [body_segment['segment_tag'] for body_segment in body_segments]
-    elements = [structured_body_segments[key]['segment_tag'] for key in structured_body_segments.keys()]
+    segments = [structured_body_segments[key]['segment_tag'] for key in structured_body_segments.keys()]
 
     set_tags = set(tags)
 
     for tag in set_tags:
-        print(tag, tags.count(tag), elements.count(tag))
+        print(tag, tags.count(tag), segments.count(tag))
 
 def run_test(message, structure_message):
     header_segments, body_segments, summary_segments = split_segments(segments)

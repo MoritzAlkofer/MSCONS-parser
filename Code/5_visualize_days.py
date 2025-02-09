@@ -12,7 +12,7 @@ def plot_day(df_day, title):
     quality_filter = df_day['quantity_qualifier-6063'] == '220'
     x = df_day[quality_filter]['start']
     y= df_day[quality_filter]['quantity_value-6060']
-    ax.scatter(x,y, color='blue',label='true value (220), with status reason', zorder=3)
+    ax.scatter(x,y, color='blue',label='true value (220)', zorder=3)
 
     quality_filter = df_day['quantity_qualifier-6063'] == '67'
     x = df_day[quality_filter]['start']
@@ -29,7 +29,7 @@ def plot_day(df_day, title):
     ax.set_xlabel('Time')
     
     ax.set_ylim(-0.5, 15)
-    ax.set_ylabel('Energy Value')
+    ax.set_ylabel('Energy Value [kWh]')
     ax.grid(True)
     ax.legend()
 
