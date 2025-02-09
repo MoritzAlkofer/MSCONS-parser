@@ -16,7 +16,7 @@ It consists of two key functionalities:
 ✅ **Handles Market Roles** → Identifies sender/receiver for validation.  
 ✅ **Visualizes Data** → Visualizes data using matplotlib.  
 
-<img src="src/Figures/day_2024-12-04.png" alt="Energy Trend" width="600"/>
+<img src="https://github.com/MoritzAlkofer/MSCONS-parser/blob/main/src/Figures/day%202024-11-30.png" alt="Energy Trend" width="600"/>
 
 
 ## 📌 Additional Features (In Development)
